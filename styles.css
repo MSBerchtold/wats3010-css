@@ -1,6 +1,65 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+html {
+    background-image: url(images/sand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 0 auto;
+    width:75%;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.3);
+}  
+ 
+header {
+    margin: 3rem 1rem;
+}   
+
 h1 {
-    color: green;
+    color: darkgreen; 
+    font-family: lucida calligraphy, edwardian script, ar decode; 
+    font-size: 2.5rem;
+    margin-bottom:0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: adobe garamond pro, cambria, sans-serif
+}
+
+aside {
+    max-width: 754px; 
+    min-width: 370px; 
+    width: 40%; 
+    border: 1px solid darkgreen; 
+    height: 300px; 
+    padding: 1rem;
+}
+
+aside img{
+    width: 160px; 
+    height: auto; 
+    float: right;
+    margin: 10px
+}
+
+section {
+    clear: both;
+}
+
+.poem {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.5;
+    font-size: 1.3rem
+}
+
+.page-footer {
+    border-top: 2px solid darkgreen;
+    padding-top: 2rem;
 }
